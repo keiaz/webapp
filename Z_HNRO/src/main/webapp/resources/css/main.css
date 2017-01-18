@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: 20px;
+	font-family: NanumGothic, Verdana, Helvetica, Courier, Arial;
+	margin: 0;
+	padding: 0;
+	background-color: #1D2326;
+	color: #DDDCC5;
+}
+
+body>nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 3.25em;
+	background-color: #6A6A61;
+	z-index: 1000;
+}
+
+body>nav>ul {
+	margin: 0;
+	padding: 0;
+	color: #611427;
+	font-size: 1.5em;
+	font-weight: bold;
+	list-style: none;
+}
+
+body>nav>ul>li {
+	float: left;
+	padding: 0.5em;
+}
+
+body>nav>ul>li:hover {
+	color: #958976;
+	background-color: #611427;
+	cursor: pointer;
+}
+
+body>nav>ul>li.active {
+	color: #958976;
+	background-color: #611427;
+}
+
+body>section#contents {
+	min-height: 100%;
+	padding: 4em 1em 1em 1em;
+}
+
+.container {
+	padding: 1em;
+	border: 1px solid #958976;
+}
+
+.gridView {
+	display: table;
+	width: 100%;
+}
+
+.gridRow {
+	display: table-row;
+}
+
+.gridCell {
+	display: table-cell;
+}
+
+.width20 {
+	width: 20%;
+}
+
+.width30 {
+	width: 30%;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.width70 {
+	width: 70%;
+}

@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+.sidenav {
+	position: fixed;
+	top: 0.8em;
+	right: 3em;
+	z-index: 1001;
+}
+
+.sidenav select {
+	width: 20em;
+	padding: 0.8em;
+	appearance: none;
+	-webkit-appearance: none;
+	border: 1px solid #958976;
+	border-radius: 0;
+	color: inherit;
+	font-size: 0.6em;
+	background-color: inherit;
+	background-image: url(../img/select_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	background-size: 1em;
+}
+
+.sidenav button {
+	position: fixed;
+	margin-left: 7em;
+	margin-top: 0.4em;
+	width: 3em;
+	height: 2em;
+	font-size: 1.5em;
+	text-decoration: none;
+	z-index: 999;
+	color: #958976;
+	background-color: #611427;
+	border: none;
+}
+
+.sidenav button:HOVER {
+	color: #611427;
+	background-color: #958976;
+}
+
+.sidenav button:ACTIVE {
+	color: #611427;
+	background-color: #6A6A61;
+}
