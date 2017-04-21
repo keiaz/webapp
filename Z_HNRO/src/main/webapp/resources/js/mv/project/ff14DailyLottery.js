@@ -61,7 +61,7 @@
 	/**
 	 * 화면 초기화
 	 */
-	vc.init = function() {
+	vc.init = function() { // TODO 뭐가 문제라 개판인걸까 ^0^
 		hnro.vc.project.getProbList();
 		
 		$(".numberButton").addClass("active").on("click", function(e) {
